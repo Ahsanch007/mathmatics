@@ -1,0 +1,1 @@
+function loadDesmosCalculator(e){var t=e.dataset.state,a=e.getElementsByClassName("desmos-calculator")[0];Desmos.GraphingCalculator(a).setState(t)}document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".embedded-content-desmos-file").forEach(loadDesmosCalculator)});

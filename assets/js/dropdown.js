@@ -1,0 +1,1 @@
+document.querySelectorAll(".im-c-dropdown__button").forEach(function(t){t.addEventListener("click",function(){t.setAttribute("aria-expanded",!("true"===t.getAttribute("aria-expanded")))})});

@@ -1,0 +1,271 @@
+.im-o-flash-notice {
+    background: #ffe3e3;
+    color: #444;
+    margin: 1rem 0;
+    padding: .5rem .8rem
+}
+
+[data-punchbox-controller='google_classroom/home'] .im--sticky-footer,
+[data-punchbox-controller='google_classroom/courses'] .im--sticky-footer,
+[data-punchbox-controller='google_classroom/im_courses'] .im--sticky-footer,
+[data-punchbox-controller='google_classroom/auth'] .im--sticky-footer {
+    background: #eee
+}
+
+[data-punchbox-controller='google_classroom/home'] .im-o-partial-width,
+[data-punchbox-controller='google_classroom/courses'] .im-o-partial-width,
+[data-punchbox-controller='google_classroom/im_courses'] .im-o-partial-width,
+[data-punchbox-controller='google_classroom/auth'] .im-o-partial-width {
+    background: #fff;
+    max-width: 72rem;
+    min-width: 72rem;
+    padding: 2rem 3rem
+}
+
+[data-punchbox-controller='google_classroom/home'] ul,
+[data-punchbox-controller='google_classroom/courses'] ul,
+[data-punchbox-controller='google_classroom/im_courses'] ul,
+[data-punchbox-controller='google_classroom/auth'] ul {
+    list-style: disc;
+    margin-left: 1.5rem
+}
+
+[data-punchbox-controller='google_classroom/home'] li,
+[data-punchbox-controller='google_classroom/courses'] li,
+[data-punchbox-controller='google_classroom/im_courses'] li,
+[data-punchbox-controller='google_classroom/auth'] li {
+    margin-bottom: .2rem
+}
+
+[data-punchbox-controller='google_classroom/home'] p,
+[data-punchbox-controller='google_classroom/courses'] p,
+[data-punchbox-controller='google_classroom/im_courses'] p,
+[data-punchbox-controller='google_classroom/auth'] p {
+    margin: 1rem 0
+}
+
+[data-punchbox-controller='google_classroom/home'] .im-c-button:hover,
+[data-punchbox-controller='google_classroom/courses'] .im-c-button:hover,
+[data-punchbox-controller='google_classroom/im_courses'] .im-c-button:hover,
+[data-punchbox-controller='google_classroom/auth'] .im-c-button:hover {
+    box-shadow: none
+}
+
+[data-punchbox-controller='google_classroom/home'] .im-o-heading,
+[data-punchbox-controller='google_classroom/courses'] .im-o-heading,
+[data-punchbox-controller='google_classroom/im_courses'] .im-o-heading,
+[data-punchbox-controller='google_classroom/auth'] .im-o-heading {
+    margin-bottom: 1.5rem
+}
+
+[data-punchbox-controller='google_classroom/home'][data-punchbox-action='home'] .im-c-google-auth {
+    display: inline-block;
+    margin-top: 1.5rem
+}
+
+[data-punchbox-controller='google_classroom/home'][data-punchbox-action='home'] .im-c-google-auth:focus {
+    border: 0;
+    box-shadow: none
+}
+
+[data-punchbox-controller='google_classroom/courses'][data-punchbox-action='index'] .im-c-new-course {
+    margin-top: 1.5rem
+}
+
+[data-punchbox-controller='google_classroom/courses'][data-punchbox-action='index'] input[type='text'] {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-right: 1rem;
+    padding: .5rem;
+    width: 20rem
+}
+
+[data-punchbox-controller='teachers/courses'][data-punchbox-action='downloads'] .im-c-card__header--bm {
+    margin-bottom: 1rem
+}
+
+[data-punchbox-controller='teachers/courses'][data-punchbox-action='downloads'] .im-c-card__header--tm {
+    margin-top: 1rem
+}
+
+[data-punchbox-controller='teachers/courses'][data-punchbox-action='downloads'] .im-c-container--bottom-border {
+    border: 1px solid #fff
+}
+
+.im-c-table {
+    border: 2px solid #0a4179;
+    border-radius: 14px;
+    font-size: 14px
+}
+
+@media only screen and (min-width: 768px) {
+    .im-c-table {
+        font-size: initial
+    }
+}
+
+.im-c-table__row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-evenly;
+    padding: 20px 15px
+}
+
+@media only screen and (min-width: 768px) {
+    .im-c-table__row {
+        gap: 20px
+    }
+}
+
+.im-c-table__header {
+    background-color: #0a4179;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-weight: bold
+}
+
+.im-c-table__td {
+    flex: 1
+}
+
+.im-c-table__td--wide-25 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    white-space: break-spaces;
+    word-break: break-word
+}
+
+.im-c-table__th {
+    white-space: break-spaces;
+    word-break: break-word
+}
+
+.im-c-status {
+    width: fit-content
+}
+
+.im-c-status__label {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 5px
+}
+
+.im-c-status--purple .im-c-status__label {
+    background-color: #7a2ebd;
+    border: none;
+    color: white
+}
+
+.im-c-status--green .im-c-status__label {
+    background-color: #3f7628;
+    border: none;
+    color: white
+}
+
+.im-c-status--blue .im-c-status__label {
+    background-color: #175a9b;
+    border: none;
+    color: white
+}
+
+.im-c-dropdown__content {
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+    min-width: 160px;
+    padding: 12px 16px;
+    position: absolute
+}
+
+.im-c-dropdown:hover .im-c-dropdown__content {
+    display: block;
+    z-index: 1
+}
+
+.tooltip {
+    position: relative
+}
+
+.tooltip__container {
+    display: flexbox;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    column-gap: 1.5rem
+}
+
+@media only screen and (min-width: 425px) {
+    .tooltip__container {
+        display: flex
+    }
+}
+
+.tooltip--button {
+    display: inline-block;
+    width: 1.5rem
+}
+
+.tooltip--button:hover+[role="tooltip"],
+.tooltip--button:focus+[role="tooltip"] {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    pointer-events: auto
+}
+
+.tooltip--content {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    max-width: 24rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    position: absolute;
+    bottom: 2.5rem;
+    left: -6.25rem;
+    background-color: #333333;
+    color: white;
+    will-change: opacity;
+    opacity: 0;
+    transform: translate3d(0, 3rem, 0) scale(0.2);
+    pointer-events: none
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .tooltip--content {
+        transition: 240ms cubic-bezier(0, 1, 0.5, 1.25)
+    }
+}
+
+.tooltip--content::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 0.75rem 0.5rem 0;
+    border-style: solid;
+    border-color: #333333 transparent;
+    position: absolute;
+    bottom: -0.75rem
+}
+
+.tooltip--position-n6 .tooltip--content {
+    left: -6rem
+}
+
+.tooltip--caret-position-6 .tooltip--content::before {
+    left: 6rem
+}
+
+#expanded_search:focus {
+    box-shadow: none
+}
+
+.container__admin-dash-module {
+    border: 2px solid #efefef;
+    border-radius: 10px;
+    padding: 20px 15px 30px;
+    margin: 0 0 20px
+}

@@ -1,0 +1,337 @@
+div.desmos-calculator {
+    width: 600px;
+    height: 600px
+}
+
+div.ggb-base-64-data {
+    display: none
+}
+
+span.embedded-content-error-backtrace {
+    display: none
+}
+
+div.embedded-content-warning {
+    color: red;
+    font-weight: bold
+}
+
+span.embedded-content-omitted {
+    display: none
+}
+
+pre.embeddable-tag {
+    width: 75%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 4th */
+
+a.im-related-feature {
+    color: black
+}
+
+.c-annotation--ell::before {
+    content: "Access for English Learners"
+}
+
+.c-annotation--swd::before {
+    content: "Access for Students with Disabilities"
+}
+
+.im-c-hero__heading.demo {
+    text-transform: none
+}
+
+.home-badge-fix {
+    width: 115px
+}
+
+.curriculum-badge-fix {
+    width: 90px;
+    margin-right: 10px
+}
+
+.im-c-hero__container_demo {
+    background-image: url(/assets/bg-K5-IM-c15912c187face90cac477af6b457ba44a7aef501baa6757b3e48388e2f9fd07.svg);
+    background-size: cover
+}
+
+.im-c-feature--gk:after {
+    background-image: url(/assets/K5-K-btn-a49bf6ffbd42c315b304ab8f64f91e1a45f61f2913af54a65651979180c2af1d.svg);
+    width: 100%;
+    height: 100%
+}
+
+p.footer-logout {
+    text-align: center
+}
+
+.im-c-feature--g1:after {
+    background-image: url(/assets/K5-1-btn-59ab164227d864cd00c80e11fb525c7dddcd0dd08582264a347ee222654b8abd.svg);
+    width: 100%;
+    height: 100%
+}
+
+.im-c-feature--g2:after {
+    background-image: url(/assets/K5-2-btn-da674f55f4cb809c46c272ddf270d78576c6593f1969ee385f12f81e5f81324f.svg);
+    width: 100%;
+    height: 100%
+}
+
+.im-c-feature--g3:after {
+    background-image: url(/assets/K5-3-btn-bc2cd5443b5906f00421228c89f3bb0331ea458d3ae78f722f78263560679ed9.svg);
+    width: 100%;
+    height: 100%
+}
+
+.im-c-feature--g4:after {
+    background-image: url(/assets/K5-4-btn-1e22d3bad0b791bdf8ce61bb51c7e104f2fc9cdd1cba9c47a694bacb35fef368.svg);
+    width: 100%;
+    height: 100%
+}
+
+.im-c-feature--g5:after {
+    background-image: url(/assets/K5-5-btn-57d1330fa296a1575f1ccf33c7231d310a0eef1696e718a9a8f3e2fa1adfd80a.svg);
+    width: 100%;
+    height: 100%
+}
+
+.im-c-feature.im-related-feature.spanish_primary {
+    margin-bottom: 1.25rem
+}
+
+.error-page {
+    padding: 30vh;
+    text-align: center
+}
+
+.im-c-content ol.ol--upperalpha {
+    list-style-type: upper-alpha
+}
+
+.resource-link {
+    color: #c63a11;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none
+}
+
+.im-c-filetype--zip>svg {
+    fill: #c63a11
+}
+
+.kh-theme .im-theme--brand .im-c-hero {
+    background-color: #ffffff
+}
+
+.kh-theme .im-theme--brand .im-c-hero__heading {
+    color: #0054a4
+}
+
+.im-c-screenreader-text {
+    background-color: #ffffff;
+    color: #000000
+}
+
+.im-c-marketing-nav__text {
+    padding: 0.25rem 1rem 0
+}
+
+@media only screen and (min-width: 960px) {
+    .im-c-marketing-nav__text {
+        padding-bottom: 0.25rem
+    }
+}
+
+.im-c-marketing-nav__link {
+    line-height: 1rem
+}
+
+@media only screen and (min-width: 960px) {
+    .im-c-marketing-nav__link {
+        padding: 0.25rem 1rem;
+        text-align: center
+    }
+}
+
+.im-c-features--row .im-related-feature {
+    background-color: #fcfcfc;
+    color: #323232;
+    font-size: 0.6rem;
+    margin: 0.5rem 0 0;
+    padding: 0.5rem 0.675rem;
+    text-align: center
+}
+
+.im-c-features--row .im-related-feature:hover {
+    border: 2px solid rgba(198, 58, 17, 0.5)
+}
+
+@media only screen and (min-width: 760px) {
+    .im-c-features--row .im-related-feature {
+        padding: 0.5rem 1.125rem;
+        font-size: 1rem
+    }
+}
+
+.im-c-features--row.im-meta__audience--students {
+    justify-content: space-between
+}
+
+.im-c-features--row.im-meta__audience--students .im-related-feature.im-meta__grade-band--aga_es {
+    flex-basis: 24%;
+    flex-grow: 0
+}
+
+@media only screen and (min-width: 760px) {
+    .im-c-features--row.im-meta__audience--students .im-related-feature.im-meta__grade-band--aga_es {
+        flex-basis: 23%
+    }
+}
+
+.invite-form {
+    color: black
+}
+
+#invite-modal {
+    z-index: 12
+}
+
+.modal-text {
+    text-align: left
+}
+
+.im--sticky-footer .im-c-header {
+    z-index: 1
+}
+
+.kh-theme .im-theme--brand .im-c-hero {
+    background-color: #ffffff
+}
+
+.kh-theme .im-theme--brand .im-c-hero__heading {
+    color: #0054a4
+}
+
+.im-c-screenreader-text {
+    background-color: #ffffff;
+    color: #000000
+}
+
+.im-c-marketing-nav__text {
+    padding: 0.25rem 1rem 0
+}
+
+@media only screen and (min-width: 960px) {
+    .im-c-marketing-nav__text {
+        padding-bottom: 0.25rem
+    }
+}
+
+.im-c-marketing-nav__link {
+    line-height: 1rem
+}
+
+@media only screen and (min-width: 960px) {
+    .im-c-marketing-nav__link {
+        padding: 0.25rem 1rem;
+        text-align: center
+    }
+}
+
+.invite-form {
+    color: black
+}
+
+#invite-modal {
+    z-index: 12
+}
+
+.modal-text {
+    text-align: left
+}
+
+.im--sticky-footer .im-c-header {
+    z-index: 1
+}
+
+.kh-theme .im-theme--brand .im-c-hero {
+    background-color: #ffffff
+}
+
+.kh-theme .im-theme--brand .im-c-hero__heading {
+    color: #0054a4
+}
+
+.im-c-screenreader-text {
+    background-color: #ffffff;
+    color: #000000
+}
+
+.im-c-marketing-nav__text {
+    padding: 0.25rem 1rem 0
+}
+
+@media only screen and (min-width: 960px) {
+    .im-c-marketing-nav__text {
+        padding-bottom: 0.25rem
+    }
+}
+
+.im-c-marketing-nav__link {
+    line-height: 1rem
+}
+
+@media only screen and (min-width: 960px) {
+    .im-c-marketing-nav__link {
+        padding: 0.25rem 1rem;
+        text-align: center
+    }
+}
+
+.js-hide {
+    display: none
+}
+
+.tagify__input:focus,
+.tagify__tag-text:focus {
+    box-shadow: none
+}
+
+.im-c-form__instructions {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin: 10px 0;
+    font-style: italic
+}
+
+.font--inline-code {
+    color: #c63a11;
+    background-color: #fefefe;
+    border-radius: 2px;
+    padding: 1px 5px;
+    margin: 0 2px;
+    font-family: Courier, monospace;
+    font-style: normal;
+    font-size: 14px
+}
+.pp-aligned-lesson-address{float:right;font-size:smaller}

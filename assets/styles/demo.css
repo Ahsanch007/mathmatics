@@ -1,0 +1,362 @@
+:root {
+    --color--rose: #175A9B;
+    --color--violet: #AE641E;
+    --color--cobalt: #396024;
+    --color--brown: #7A2EBD;
+    --color--lagoon: #005C56;
+    --color--leaf: #913071
+}
+
+.im-theme--rose {
+    --theme--background: var(--color--rose);
+    --theme--text: #fff
+}
+
+.im-theme--violet {
+    --theme--background: var(--color--violet);
+    --theme--text: #fff
+}
+
+.im-theme--cobalt {
+    --theme--background: var(--color--cobalt);
+    --theme--text: #fff
+}
+
+.im-theme--brown {
+    --theme--background: var(--color--brown);
+    --theme--text: #fff
+}
+
+.im-theme--lagoon {
+    --theme--background: var(--color--lagoon);
+    --theme--text: #fff
+}
+
+.im-theme--leaf {
+    --theme--background: var(--color--leaf);
+    --theme--text: #fff
+}
+
+.im-theme--rose .im-c-accordion__button[aria-expanded="true"] {
+    background: var(--color--rose)
+}
+
+.im-theme--violet .im-c-accordion__button[aria-expanded="true"] {
+    background: var(--color--violet)
+}
+
+.im-theme--cobalt .im-c-accordion__button[aria-expanded="true"] {
+    background: var(--color--cobalt)
+}
+
+.im-theme--brown .im-c-accordion__button[aria-expanded="true"] {
+    background: var(--color--brown)
+}
+
+.im-theme--lagoon .im-c-accordion__button[aria-expanded="true"] {
+    background: var(--color--lagoon)
+}
+
+.im-theme--leaf .im-c-accordion__button[aria-expanded="true"] {
+    background: var(--color--leaf)
+}
+
+.im-theme--rose .im-c-callout__heading {
+    background: var(--color--rose);
+    color: #fff
+}
+
+.im-theme--violet .im-c-callout__heading {
+    background: var(--color--violet);
+    color: #fff
+}
+
+.im-theme--cobalt .im-c-callout__heading {
+    background: var(--color--cobalt);
+    color: #fff
+}
+
+.im-theme--brown .im-c-callout__heading {
+    background: var(--color--brown);
+    color: #fff
+}
+
+.im-theme--lagoon .im-c-callout__heading {
+    background: var(--color--lagoon);
+    color: #fff
+}
+
+.im-theme--leaf .im-c-callout__heading {
+    background: var(--color--leaf);
+    color: #fff
+}
+
+.im-theme--rose .im-c-card__header--themed {
+    background: var(--color--rose);
+    color: #fff
+}
+
+.im-theme--violet .im-c-card__header--themed {
+    background: var(--color--violet);
+    color: #fff
+}
+
+.im-theme--cobalt .im-c-card__header--themed {
+    background: var(--color--cobalt);
+    color: #fff
+}
+
+.im-theme--brown .im-c-card__header--themed {
+    background: var(--color--brown);
+    color: #fff
+}
+
+.im-theme--lagoon .im-c-card__header--themed {
+    background: var(--color--lagoon);
+    color: #fff
+}
+
+.im-theme--leaf .im-c-card__header--themed {
+    background: var(--color--leaf);
+    color: #fff
+}
+
+.im-theme--rose .im-c-feature--full {
+    background: var(--color--rose);
+    color: #fff
+}
+
+.im-theme--violet .im-c-feature--full {
+    background: var(--color--violet);
+    color: #fff
+}
+
+.im-theme--cobalt .im-c-feature--full {
+    background: var(--color--cobalt);
+    color: #fff
+}
+
+.im-theme--brown .im-c-feature--full {
+    background: var(--color--brown);
+    color: #fff
+}
+
+.im-theme--lagoon .im-c-feature--full {
+    background: var(--color--lagoon);
+    color: #fff
+}
+
+.im-theme--leaf .im-c-feature--full {
+    background: var(--color--leaf);
+    color: #fff
+}
+
+.im-theme--rose .im-c-heading--themed {
+    color: var(--color--rose)
+}
+
+.im-theme--violet .im-c-heading--themed {
+    color: var(--color--violet)
+}
+
+.im-theme--cobalt .im-c-heading--themed {
+    color: var(--color--cobalt)
+}
+
+.im-theme--brown .im-c-heading--themed {
+    color: var(--color--brown)
+}
+
+.im-theme--lagoon .im-c-heading--themed {
+    color: var(--color--lagoon)
+}
+
+.im-theme--leaf .im-c-heading--themed {
+    color: var(--color--leaf)
+}
+
+.im-theme--rose .im-c-hero {
+    background: var(--color--rose);
+    color: #fff
+}
+
+.im-theme--violet .im-c-hero {
+    background: var(--color--violet);
+    color: #fff
+}
+
+.im-theme--cobalt .im-c-hero {
+    background: var(--color--cobalt);
+    color: #fff
+}
+
+.im-theme--brown .im-c-hero {
+    background: var(--color--brown);
+    color: #fff
+}
+
+.im-theme--lagoon .im-c-hero {
+    background: var(--color--lagoon);
+    color: #fff
+}
+
+.im-theme--leaf .im-c-hero {
+    background: var(--color--leaf);
+    color: #fff
+}
+
+.im-theme--rose .im-c-message--themed {
+    border: 2px solid var(--color--rose)
+}
+
+.im-theme--violet .im-c-message--themed {
+    border: 2px solid var(--color--violet)
+}
+
+.im-theme--cobalt .im-c-message--themed {
+    border: 2px solid var(--color--cobalt)
+}
+
+.im-theme--brown .im-c-message--themed {
+    border: 2px solid var(--color--brown)
+}
+
+.im-theme--lagoon .im-c-message--themed {
+    border: 2px solid var(--color--lagoon)
+}
+
+.im-theme--leaf .im-c-message--themed {
+    border: 2px solid var(--color--leaf)
+}
+
+.im-theme--rose .im-c-message--themed h1,
+.im-theme--rose .im-c-message--themed h2,
+.im-theme--rose .im-c-message--themed h3,
+.im-theme--rose .im-c-message--themed h4,
+.im-theme--rose .im-c-message--themed h5,
+.im-theme--rose .im-c-message--themed h6 {
+    color: var(--color--rose)
+}
+
+.im-theme--violet .im-c-message--themed h1,
+.im-theme--violet .im-c-message--themed h2,
+.im-theme--violet .im-c-message--themed h3,
+.im-theme--violet .im-c-message--themed h4,
+.im-theme--violet .im-c-message--themed h5,
+.im-theme--violet .im-c-message--themed h6 {
+    color: var(--color--violet)
+}
+
+.im-theme--cobalt .im-c-message--themed h1,
+.im-theme--cobalt .im-c-message--themed h2,
+.im-theme--cobalt .im-c-message--themed h3,
+.im-theme--cobalt .im-c-message--themed h4,
+.im-theme--cobalt .im-c-message--themed h5,
+.im-theme--cobalt .im-c-message--themed h6 {
+    color: var(--color--cobalt)
+}
+
+.im-theme--brown .im-c-message--themed h1,
+.im-theme--brown .im-c-message--themed h2,
+.im-theme--brown .im-c-message--themed h3,
+.im-theme--brown .im-c-message--themed h4,
+.im-theme--brown .im-c-message--themed h5,
+.im-theme--brown .im-c-message--themed h6 {
+    color: var(--color--brown)
+}
+
+.im-theme--lagoon .im-c-message--themed h1,
+.im-theme--lagoon .im-c-message--themed h2,
+.im-theme--lagoon .im-c-message--themed h3,
+.im-theme--lagoon .im-c-message--themed h4,
+.im-theme--lagoon .im-c-message--themed h5,
+.im-theme--lagoon .im-c-message--themed h6 {
+    color: var(--color--lagoon)
+}
+
+.im-theme--leaf .im-c-message--themed h1,
+.im-theme--leaf .im-c-message--themed h2,
+.im-theme--leaf .im-c-message--themed h3,
+.im-theme--leaf .im-c-message--themed h4,
+.im-theme--leaf .im-c-message--themed h5,
+.im-theme--leaf .im-c-message--themed h6 {
+    color: var(--color--leaf)
+}
+
+.im-theme--rose .im-c-number {
+    background: var(--color--rose);
+    color: #fff
+}
+
+.im-theme--violet .im-c-number {
+    background: var(--color--violet);
+    color: #fff
+}
+
+.im-theme--cobalt .im-c-number {
+    background: var(--color--cobalt);
+    color: #fff
+}
+
+.im-theme--brown .im-c-number {
+    background: var(--color--brown);
+    color: #fff
+}
+
+.im-theme--lagoon .im-c-number {
+    background: var(--color--lagoon);
+    color: #fff
+}
+
+.im-theme--leaf .im-c-number {
+    background: var(--color--leaf);
+    color: #fff
+}
+
+.im-theme--rose .c-annotation {
+    border: 2px solid var(--color--rose)
+}
+
+.im-theme--violet .c-annotation {
+    border: 2px solid var(--color--violet)
+}
+
+.im-theme--cobalt .c-annotation {
+    border: 2px solid var(--color--cobalt)
+}
+
+.im-theme--brown .c-annotation {
+    border: 2px solid var(--color--brown)
+}
+
+.im-theme--lagoon .c-annotation {
+    border: 2px solid var(--color--lagoon)
+}
+
+.im-theme--leaf .c-annotation {
+    border: 2px solid var(--color--leaf)
+}
+
+.im-theme--rose .c-annotation:before {
+    color: var(--color--rose)
+}
+
+.im-theme--violet .c-annotation:before {
+    color: var(--color--violet)
+}
+
+.im-theme--cobalt .c-annotation:before {
+    color: var(--color--cobalt)
+}
+
+.im-theme--brown .c-annotation:before {
+    color: var(--color--brown)
+}
+
+.im-theme--lagoon .c-annotation:before {
+    color: var(--color--lagoon)
+}
+
+.im-theme--leaf .c-annotation:before {
+    color: var(--color--leaf)
+}
